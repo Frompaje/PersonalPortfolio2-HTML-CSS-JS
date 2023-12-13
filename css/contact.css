@@ -1,0 +1,64 @@
+.main-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    align-items: center;
+    gap: 5rem;
+}
+
+.left-contact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+}
+
+.in i {
+    color: var(--main-color);
+    opacity: 0.5;
+    font-size: 120px;
+    margin-bottom: 15px;
+    transition: all ease-in-out .5s;
+}
+
+.in i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.in h4 {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.right-contact h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: var(--h2-font);
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.right-contact a {
+    display: inline-block;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 2px solid var(--main-color);
+    padding: 3px 0;
+    transition: all .4s ease-in-out;
+
+}
+
+.right-contact a:hover {
+    transform: translateY(-5px);
+    color: var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+
+}
+
+.right-contact p {
+    margin-top: 20px;
+    font-size: var(--p-font);
+    color: var(--other-color);
+}

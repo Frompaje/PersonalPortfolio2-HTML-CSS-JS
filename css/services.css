@@ -1,0 +1,93 @@
+.main-services h2,
+.main-services h3,
+.main-services h4 {
+    color: var(--text-color);
+}
+
+.main-services {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-bottom: 3rem;
+}
+
+.main-services {
+    background: var(--second-bg-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: var(--h2-font);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.text-center h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.services-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2.2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.services-box {
+    padding: 45px 30px;
+    background: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.services-box:hover {
+    background: transparent;
+    border: 1px solid var(--main-color);
+    transform: translateY(-10px);
+
+}
+
+.main-services i {
+    font-size: 50px;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.main-services h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.main-services p {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-readMore {
+    padding: 10px 20px;
+    border: 1px solid var(--main-color);
+    border-radius: 4px;
+    color: var(--text-color);
+    background: var(--main-color);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font-size: var(--p-font);
+}
+
+.btn-readMore:hover {
+    transform: scale(1.1);
+    background: transparent;
+    border: 2px solid var(--main-color);
+}
